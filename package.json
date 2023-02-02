@@ -1,0 +1,27 @@
+{
+  "name": "api-rocketmovies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thayna-bezerra/api-rocketmovies.git"
+  },
+  "keywords": [],
+  "author": "Thayna Bezerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thayna-bezerra/api-rocketmovies/issues"
+  },
+  "homepage": "https://github.com/thayna-bezerra/api-rocketmovies#readme",
+  "description": "rocketmovies application backend",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
